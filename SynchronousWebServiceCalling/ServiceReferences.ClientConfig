@@ -1,0 +1,19 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <customBinding>
+                <binding name="CustomBinding_ContentService">
+                    <binaryMessageEncoding />
+                    <httpTransport   maxReceivedMessageSize="2147483647" maxBufferSize="2147483647" />               
+                </binding>
+            </customBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://localhost:58147/ContentService.svc"
+                binding="customBinding" bindingConfiguration="CustomBinding_ContentService"
+                contract="ContentServiceReference.ContentService" name="CustomBinding_ContentService" />      
+          
+        </client>
+    </system.serviceModel>
+</configuration>
+

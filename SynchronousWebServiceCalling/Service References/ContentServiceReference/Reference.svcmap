@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="8aa518a2-3675-4bfb-8164-6306e9ac45dd" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58147/ContentService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ContentService.wsdl" MetadataType="Wsdl" ID="aa6566c3-237e-411f-bd9e-0b8ea2acfa20" SourceId="1" SourceUrl="http://localhost:58147/ContentService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="ContentService.xsd" MetadataType="Schema" ID="b0b32c98-c559-4d92-9ae8-e7b5e4be0a42" SourceId="1" SourceUrl="http://localhost:58147/ContentService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ContentService1.xsd" MetadataType="Schema" ID="f42bb13f-ffe2-4be0-8913-04007b41c265" SourceId="1" SourceUrl="http://localhost:58147/ContentService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ContentService.disco" MetadataType="Disco" ID="4db8f845-f8fc-469a-935c-03a9a0e2fa76" SourceId="1" SourceUrl="http://localhost:58147/ContentService.svc?disco" />
+    <MetadataFile FileName="ContentService1.wsdl" MetadataType="Wsdl" ID="e466e8e8-ad81-416a-84b7-27ab02814bc4" SourceId="1" SourceUrl="http://localhost:58147/ContentService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
